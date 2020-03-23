@@ -1,0 +1,50 @@
+position fix relative
+
+$ 方法
+避免使用回调函数的方法：
+	事件消息通知：ES6 Promise  ES6 generator
+	
+设计模式：
+	.1
+	单例模式：减少多次实例化，减少内存
+	var single
+	2.实例化：
+	一般不支持class
+	一般用
+	function class_A(param){
+			this.attr_1 = param;
+			this.func_1 = function(){
+				console.log(this.attr_1)
+			}
+	}
+	var instance_1 = new class_A('1');
+	
+	
+	书城webapp开发：
+	1.搜索
+	2.活动区
+	
+	
+	使用NodeJS做web服务：
+		前端后端语言风格的统一
+		开发方式上前端和后端的彻底隔离
+		 
+		 2.常见的NodeJS web服务框架：
+			KOA： 轻便，大公司常使用
+			ExpressJS
+			
+	后端api/数据层-》nodejs-》前端页面
+	
+	
+	客户端渲染、服务端渲染
+	
+	
+	基于nodejs的服务端的搭建和开发
+	
+		服务端的开发：
+			项目文件和目录结构的搭建
+			运行网站nodejs基础的开发
+			为网站添加接口，连通数据和后端服务
+			
+			
+get、post
