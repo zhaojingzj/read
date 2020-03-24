@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" type="text/css" src="/static/css/all.css">
+        <title>书城首页</title>
+    </head>
+    <body>
+        <div id="root">
+            <% include include/header.html %>
+            <div>
+                <% include include/index-top %>
+                <% include include/index-hot %>
+                <% include include/index-recommend %>
+                <% include include/index-female %>
+                <% include include/index-male %>
+                <% include include/index-free %>
+                <% include include/index-bottom %>
+            </div>
+        </div>
+
+    </body>
+    <script src="/static/script/vue.js"></script>
+    <script src="/static/script/zepto.js"></script>
+    <script src="/static/script/pages/index.js"></script>
+</html>

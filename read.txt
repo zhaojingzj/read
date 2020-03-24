@@ -1,4 +1,4 @@
-position fix relative
+﻿position fix relative
 
 $ 方法
 避免使用回调函数的方法：
@@ -48,3 +48,5 @@ $ 方法
 			
 			
 get、post
+
+yield 异步加，不异步不加
